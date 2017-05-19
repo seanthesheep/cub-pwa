@@ -11,7 +11,10 @@
   };
 
   
-  // TODO add service 
+  // TODO 
+  // - add navigation
+  // - add spinner
+  
     
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
