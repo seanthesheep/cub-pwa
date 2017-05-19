@@ -79,11 +79,24 @@ body {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-    margin: 5%;
+    margin: 6%;
 	display: inline-block;
     padding-top: inherit;
     font-size: 3.2em;
 }
 
+.cub-button {
+  background-color: #8D6E63;
+  color: #FFF;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  padding: 10px 15px 10px 15px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
 
 

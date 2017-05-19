@@ -7,6 +7,7 @@ self.addEventListener('install', event => {
                 '/index.html',
                 '/scripts/app.js',
                 '/styles/cub.css',
+                '/styles/style.css',
                 '/'
             ]))
     );
