@@ -19,15 +19,6 @@
   <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
   <meta name="msapplication-TileColor" content="#8D6E63">
   <meta name="theme-color" content="#8D6E63">
-    
-     <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js')
-          .then(() => console.log('service worker installed'))
-          .catch(err => console.log('Error', err));
-      }
-      </script>
-    
 </head>
 <body>
 
@@ -45,7 +36,7 @@
 
 
   
-  <script src="scripts/app.js" async></script> 
+  <script async src="scripts/app.js"></script> 
 
 </body>
 </html>
