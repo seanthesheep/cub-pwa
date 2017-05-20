@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://cub-pwa.firebaseapp.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cub PWA</title>
+    
+  <link rel="stylesheet" type="text/css" href="styles/cub.css"> 
+  <link rel="icon" href="images/icons/favicon.png">
+  <link rel="manifest" href="/manifest.json">
+    
+  <!-- Add to home screen Safari iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="">
+  <meta name="apple-mobile-web-app-title" content="Cub PWA">
+  <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#8D6E63">
+  <meta name="theme-color" content="#8D6E63">
+
+    <!-- extra css -->
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+<body>
+    
+    <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Menu Item</a>
+      </div>
+
+  <header class="cub-header">
+    <h1 class="cub-title">Cub PWA</h1>
+      <span id="bars" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </header>
+     
+  <main class="cub-content">
+    <div class="cub-card" cardTemplate>
+      <h1 class="cub-title">Cub</h1>
+      <p>A lightweight boilerplate to kickstart your Progressive Web App Project</p>
+      <img src="images/icons/icon-256x256.png" alt="cub">
+        <div class="cub-fab"></div>
+        <button class="cub-button">Button</button>
+    </div>
+  </main>
+
+    
+  
+  <script async src="scripts/app.js"></script> 
+    
+
+</body>
+</html>
