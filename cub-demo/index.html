@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,11 +25,20 @@
 
 </head>
 <body>
+    
+    <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Menu Item</a>
+      </div>
 
   <header class="cub-header">
     <h1 class="cub-title">Cub PWA</h1>
+      <span id="bars" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   </header>
-
+     
   <main class="cub-content">
     <div class="cub-card" cardTemplate>
       <h1 class="cub-title">Cub</h1>
@@ -41,8 +50,6 @@
   </main>
 
     
-  
-
   
   <script async src="scripts/app.js"></script> 
     

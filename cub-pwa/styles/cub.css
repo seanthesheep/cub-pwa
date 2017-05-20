@@ -26,7 +26,7 @@ body {
   width: 100%;
   height: 56px;
   color: #FFF;
-  background: #8D6E63;
+  background: #9E9E9E;
   position: fixed;
   font-size: 20px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
@@ -68,7 +68,7 @@ body {
 
 .cub-fab:before { 
     content: "+";
-	background: #8D6E63;
+	background: #2962FF;
     color: #FFF;
     box-shadow:0px 0px 3px rgba(0,0,0,0.5),3px 3px 3px rgba(0,0,0,0.25);
 	width: 62px;
@@ -86,9 +86,10 @@ body {
 }
 
 .cub-button {
-  background-color: #8D6E63;
+  background-color: #2962FF;
   color: #FFF;
   font-weight: 400;
+  cursor: pointer;
   position: relative;
   display: block;
   padding: 10px 15px 10px 15px;
