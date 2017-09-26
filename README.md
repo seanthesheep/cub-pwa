@@ -6,6 +6,6 @@
 
 Cub has predefined CSS classes such as `.cub-header`, `.cub-card`, `.cub-button`, and `.cub-fab`
 
-[Cub Demo](https://cub-pwa.firebaseapp.com/)
+[Cub-PWA Demo](https://cub-pwa.firebaseapp.com/)
 
 Test your app with [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
